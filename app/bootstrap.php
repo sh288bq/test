@@ -18,5 +18,5 @@ $configurator->addConfig(__DIR__ . '/config/config.neon');
 $configurator->addConfig(__DIR__ . '/config/config.local.neon');
 
 $container = $configurator->createContainer();
-
+//pozri ci je to tu napisane
 return $container;
